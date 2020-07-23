@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+ 
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(images/33935124-yellow-wood-cork-board-texture.jpg);
+
+}
+
+.myHeader{
+    width: 100%;
+    height: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.myBody{
+    width: 100%;
+    height: 40%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+    
+.form{
+    float: none;
+    margin: 0 auto;
+    width: 500px;
+    height: 160px;
+    background-image: url(images/lined-paper1951239-canvas\ \(1\).jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    margin: 0 auto;
+    
+}
+
+.description{
+    height: 40%;
+    width: 90%;
+    margin: 0.2% 10%;
+}
+
+#text{
+  
+    height: 100;
+    width: 90%;
+    background: none;
+    border: 2px;
+    font-size: 15px;
+}
+
+.dateAndTime{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+
+.inptsDateAndTime{
+    align-items: center;
+    background: none;
+    border: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button{
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+#reset{
+    background-color: red;
+}
+
+#myFooter {
+    width: 90%;
+    padding-left:20px;
+    padding-right:20px;
+    float: none;
+    margin: 0 auto;
+}
+
+.boxNote {
+    margin-top: 5px;
+    background-image: url(images/1.png);
+    background-size: cover;
+    height: 260px;
+    width: 220px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    float: left;
+}
+.lastChild{
+    animation: fadein 3s;
+}
+
+.descriptionText {
+    margin: 15px;
+    margin-top: 25px;
+    width: 180px;
+    height: 125px;
+    overflow: auto;
+    line-break: anywhere;
+}
+
+
+.dateSpan {
+    width: 90%;
+    height: 30%;
+    padding-left: 15px;
+    margin-top: auto;
+}
+
+.glyphicon {
+    position: relative;
+    visibility: hidden;
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.boxNote:hover .glyphicon{
+    visibility: visible;
+} 
+
+@keyframes fadein{
+    from {opacity: 0;}
+    to{opacity: 100;}
+    
+
+}
+
+@media screen and (max-width: 600px){
+    #myFooter {
+        width: 100%;
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
